@@ -9,14 +9,14 @@ services:
     container_name: postgres_dwh
     volumes:
       # - "./data_repo:/host"
-      - ./scripts:/docker-entrypoint-initdb.d
+      # - ./scripts:/docker-entrypoint-initdb.d
       - ./backup:/backup
     ports:
       - "5433:5432"
     environment:
       POSTGRES_USER: $DWH_POSTGRES_ADMIN
       POSTGRES_PASSWORD: $DWH_POSTGRES_PASSWORD
-      # POSTGRES_DB: $DWH_POSTGRES_DATABASE
+      POSTGRES_DB: $DWH_POSTGRES_DATABASE
 
 networks: 
     default: 

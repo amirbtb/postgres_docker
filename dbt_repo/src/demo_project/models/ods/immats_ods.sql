@@ -8,7 +8,6 @@ renamed as (
 
     select
         index,
-        date_0,
         date_1,
         genre_moto,
         marque,

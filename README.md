@@ -7,6 +7,8 @@ Local setup of Postgres on Docker Compose
 ### Run dbt
 1. Run `docker exec dbt bash run_dbt.sh`
 
+### DOCKER EXEC à EXECUTER SUR UN TERMINAL HORS ATTACH SHELL
+
 ### Run dbt-docs website
 1. Run `docker exec -d dbt bash serve_dbt_docs.sh`
 You can then access the docs website on http://localhost:4444

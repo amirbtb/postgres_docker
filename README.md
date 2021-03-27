@@ -12,7 +12,7 @@ Local setup of Postgres on Docker Compose
 You can then access the docs website on http://localhost:4444
 
 ## codegen dbt
-toutes ces commandes sont a lancer depuis la baleine attach shell.
+toutes ces commandes sont a lancer depuis la baleine postgres dbt attach shell.
 une fois dans le contenaire, `cd demo_project`
 ### generate source yml pour stg 
 `dbt run-operation generate_source --args 'schema_name: stg'`

@@ -4,3 +4,4 @@ sources:
   - name: stg
     tables:
       - name: immats_2021_02
+      - name: vrp

@@ -1,15 +1,14 @@
 version: 2
 
 models:
-  - name: immats_ods
-    description: "Immatriculation moto Fevrier 2021 en France"
-
+  - name: immats_vrp_ods
+    description: ""
     columns:
       - name: index
         description: ""
 
       - name: date_1
-        description: "Date d'Immatriculation"
+        description: ""
 
       - name: genre_moto
         description: ""
@@ -21,7 +20,7 @@ models:
         description: ""
 
       - name: carrosserie
-        description: "Type de carrosserie"
+        description: ""
 
       - name: cylindree
         description: ""
@@ -32,14 +31,17 @@ models:
       - name: departement
         description: ""
 
+      - name: commerciaux
+        description: ""
+
       - name: date_arrete
-        description: "Date ou le fichier s'arrete"
+        description: ""
 
       - name: volume
-        description: "Quantités immatriculées"
+        description: ""
 
       - name: jo
-        description: "Jours ouvrés"
+        description: ""
 
       - name: dep
-        description: "VRP"
+        description: ""

@@ -1,0 +1,1 @@
+select * from {{ ref('immats_vrp_ods') }}

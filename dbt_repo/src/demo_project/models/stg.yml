@@ -4,4 +4,5 @@ sources:
   - name: stg
     tables:
       - name: immats_2021_02
+      - name: rapport_ventes_20_21
       - name: vrp

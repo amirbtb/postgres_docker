@@ -18,8 +18,8 @@ renamed as (
         departement,
         date_arrete,
         volume,
-        jo,
-        dep
+        jo
+
 
     from source
 

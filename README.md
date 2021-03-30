@@ -18,7 +18,7 @@ toutes ces commandes sont a lancer depuis la baleine postgres dbt attach shell.
 une fois dans le contenaire, `cd demo_project`
 
 ### generate source yml pour stg (script1)
-`dbt run-operation generate_source --args 'schema_name: stg'`
+`dbt run-operation generate_source --args '{"schema_name": "stg","generate_columns":True}'`
 
 ### generate script sql d'une table (script2) 
 `dbt run-operation generate_base_model --args '{"source_name": "stg", "table_name": "immats_2021_02"}'`
@@ -34,4 +34,5 @@ une fois dans le contenaire, `cd demo_project`
 2. run (script 2) avec comme valeur pour table_name le nom de la nouvelle table. puis copier coller le contenu dans un fichier models/ods/nom_du_dossier/nom_de_la_table_ods.sql
 3. créer la nouvelle table en lançant `dbt run` 
 4. run (script 3) puis copier coller le contenu dans model/ods/nom_du_dossier/nom_du_dossier.yml
-5. pour créer la vue suivre ce shema en remplacant le nom de la table `select * from {{ ref('immats_vrp_ods') }}`
+5. pour créer la vue créer un fichier model/prs/nom_du_dossier/nom_table_prs.sql et mettre dedans ce code en changeant le nom de la table  `select * from {{ ref('immats_vrp_ods') }}`
+6. dbt run 

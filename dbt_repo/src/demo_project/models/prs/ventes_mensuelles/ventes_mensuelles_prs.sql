@@ -1,0 +1,1 @@
+select * from {{ ref('ventes_mensuelles_ods') }}

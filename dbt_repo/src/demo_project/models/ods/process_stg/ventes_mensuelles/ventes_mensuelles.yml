@@ -2,22 +2,22 @@ version: 2
 
 models:
   - name: ventes_mensuelles_ods
-    description: ""
+    description: "Ventes 2020/2021 des produits de la Sima"
     columns:
       - name: index
         description: ""
 
       - name: annee
-        description: ""
+        description: "date de la vente"
 
       - name: mois
-        description: ""
+        description: "date de la vente"
 
       - name: famille_de_vente
-        description: ""
+        description: "Type du produit"
 
       - name: famille_article
-        description: ""
+        description: "marque du produit"
 
       - name: sous_famille_article
         description: ""
@@ -38,7 +38,7 @@ models:
         description: ""
 
       - name: millesime
-        description: ""
+        description: "millesime du produit"
 
       - name: famille_client
         description: ""

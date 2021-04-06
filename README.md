@@ -21,12 +21,12 @@ une fois dans le contenaire, `cd demo_project`
 `dbt run-operation generate_source --args '{"schema_name": "stg","generate_columns":True}'`
 
 ### generate script sql d'une table (script2) 
-`dbt run-operation generate_base_model --args '{"source_name": "stg", "table_name": "immats_2021_02"}'`
+`dbt run-operation generate_base_model --args '{"source_name": "stg", "table_name": "immats_02_21"}'`
 
 **script2 puis dbt run puis script3**
 
 ### generate yml d'une table (script3)
-`dbt run-operation generate_model_yaml --args '{"model_name": "immats_2021_02"}'`
+`dbt run-operation generate_model_yaml --args '{"model_name": "immats_02_21"}'`
 
 ## Etapes quand on a une nouvelle soucre
 *prérequis : avoir développer et lancer un flux "EL"*

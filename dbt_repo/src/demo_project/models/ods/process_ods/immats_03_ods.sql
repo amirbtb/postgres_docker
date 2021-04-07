@@ -1,6 +1,6 @@
 with source as (
 
-    select * from {{ source('stg', 'immats_2021_02') }}
+    select * from {{ source('stg', 'immats_03_21') }}
 
 ),
 
@@ -8,7 +8,7 @@ renamed as (
 
     select
         index,
-        date_1,
+        date,
         genre_moto,
         marque,
         modele,
@@ -19,7 +19,6 @@ renamed as (
         date_arrete,
         volume,
         jo
-
 
     from source
 

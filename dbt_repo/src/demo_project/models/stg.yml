@@ -3,11 +3,10 @@ version: 2
 sources:
   - name: stg
     tables:
-      - name: immats_2021_02
+      - name: immats_03_21
         columns:
           - name: index
-          - name: date_0
-          - name: date_1
+          - name: date
           - name: genre_moto
           - name: marque
           - name: modele
@@ -18,25 +17,8 @@ sources:
           - name: date_arrete
           - name: volume
           - name: jo
-          - name: dep
 
-      - name: rapport_ventes_20_21
-        columns:
-          - name: index
-          - name: annee
-          - name: mois
-          - name: famille_de_vente
-          - name: famille_article
-          - name: sous_famille_article
-          - name: gamme
-          - name: cylindree
-          - name: modele
-          - name: couleur
-          - name: sum_qte_vhl_fact_
-          - name: millesime
-          - name: famille_client
-
-      - name: vrp
+      - name: vrp_03_21
         columns:
           - name: index
           - name: code_departements

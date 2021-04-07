@@ -7,7 +7,7 @@ models:
       - name: index
         description: ""
 
-      - name: date_1
+      - name: date
         description: ""
 
       - name: genre_moto
@@ -41,7 +41,4 @@ models:
         description: ""
 
       - name: jo
-        description: ""
-
-      - name: dep
         description: ""

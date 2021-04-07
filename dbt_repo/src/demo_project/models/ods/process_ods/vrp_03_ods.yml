@@ -1,0 +1,17 @@
+version: 2
+
+models:
+  - name: vrp_03_ods
+    description: ""
+    columns:
+      - name: index
+        description: ""
+
+      - name: code_departements
+        description: ""
+
+      - name: departements
+        description: ""
+
+      - name: commerciaux
+        description: ""

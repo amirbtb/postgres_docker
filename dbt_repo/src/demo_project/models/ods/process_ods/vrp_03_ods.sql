@@ -1,6 +1,6 @@
 with source as (
 
-    select * from {{ source('stg', 'vrp') }}
+    select * from {{ source('stg', 'vrp_03_21') }}
 
 ),
 

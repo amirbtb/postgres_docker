@@ -1,12 +1,12 @@
 with source_immats as (
 
-    select * from {{ ref('immats_ods') }}
+    select * from {{ ref('immats_03_ods') }}
 
 ),
 
 source_vrp as (
 
-    select * from {{ ref('vrp_ods') }}
+    select * from {{ ref('vrp_03_ods') }}
 
 ),
 
@@ -14,7 +14,7 @@ table_union as (
 
     select
         i.index as index,
-        i.date_1 as date_1,
+        i.date as date,
         i.genre_moto as genre_moto,
         i.marque as marque,
         i.modele as modele,

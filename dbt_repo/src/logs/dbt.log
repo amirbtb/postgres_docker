@@ -1,0 +1,33 @@
+2021-04-06 17:16:01.660823 (MainThread): Running with dbt=0.19.0
+2021-04-06 17:16:02.143298 (MainThread): running dbt with arguments Namespace(cls=<class 'dbt.task.clean.CleanTask'>, debug=False, defer=None, log_cache_events=False, log_format='default', partial_parse=None, profile=None, profiles_dir='/root/.dbt', project_dir='/src/demo_project', record_timing_info=None, rpc_method=None, single_threaded=False, state=None, strict=False, target=None, test_new_parser=False, use_cache=True, use_colors=None, vars='{}', warn_error=False, which='clean', write_json=True)
+2021-04-06 17:16:02.162529 (MainThread): Tracking: tracking
+2021-04-06 17:16:02.169748 (MainThread): Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7344f3dcd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7348c37ee0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7344f1f3d0>]}
+2021-04-06 17:16:02.174996 (MainThread): Checking target/*
+2021-04-06 17:16:02.209182 (MainThread):  Cleaned target/*
+2021-04-06 17:16:02.211877 (MainThread): Checking dbt_modules/*
+2021-04-06 17:16:04.401474 (MainThread):  Cleaned dbt_modules/*
+2021-04-06 17:16:04.407471 (MainThread): Finished cleaning all paths.
+2021-04-06 17:16:04.413209 (MainThread): Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7348c37ee0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7344f3dcd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7344f1ffa0>]}
+2021-04-06 17:16:04.425506 (MainThread): Flushing usage events
+2021-04-06 17:56:16.084236 (MainThread): Running with dbt=0.19.0
+2021-04-06 17:56:17.195433 (MainThread): running dbt with arguments Namespace(cls=<class 'dbt.task.clean.CleanTask'>, debug=False, defer=None, log_cache_events=False, log_format='default', partial_parse=None, profile=None, profiles_dir='/root/.dbt', project_dir='/src/demo_project', record_timing_info=None, rpc_method=None, single_threaded=False, state=None, strict=False, target=None, test_new_parser=False, use_cache=True, use_colors=None, vars='{}', warn_error=False, which='clean', write_json=True)
+2021-04-06 17:56:17.210246 (MainThread): Tracking: tracking
+2021-04-06 17:56:17.193025 (MainThread): Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa9261cad60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa929bfe1f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa9261ae370>]}
+2021-04-06 17:56:17.197707 (MainThread): Checking target/*
+2021-04-06 17:56:17.276659 (MainThread):  Cleaned target/*
+2021-04-06 17:56:17.282201 (MainThread): Checking dbt_modules/*
+2021-04-06 17:56:18.709643 (MainThread):  Cleaned dbt_modules/*
+2021-04-06 17:56:18.712876 (MainThread): Finished cleaning all paths.
+2021-04-06 17:56:18.718268 (MainThread): Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa929bfe1f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa9261cad60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa9261aefa0>]}
+2021-04-06 17:56:18.728541 (MainThread): Flushing usage events
+2021-04-06 18:00:10.854950 (MainThread): Running with dbt=0.19.0
+2021-04-06 18:00:11.326836 (MainThread): running dbt with arguments Namespace(cls=<class 'dbt.task.clean.CleanTask'>, debug=False, defer=None, log_cache_events=False, log_format='default', partial_parse=None, profile=None, profiles_dir='/root/.dbt', project_dir='/src/demo_project', record_timing_info=None, rpc_method=None, single_threaded=False, state=None, strict=False, target=None, test_new_parser=False, use_cache=True, use_colors=None, vars='{}', warn_error=False, which='clean', write_json=True)
+2021-04-06 18:00:11.337941 (MainThread): Tracking: tracking
+2021-04-06 18:00:11.353995 (MainThread): Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f929d4b3b20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f92a0ee8220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f929d497340>]}
+2021-04-06 18:00:11.357557 (MainThread): Checking target/*
+2021-04-06 18:00:11.483036 (MainThread):  Cleaned target/*
+2021-04-06 18:00:11.490595 (MainThread): Checking dbt_modules/*
+2021-04-06 18:00:12.342091 (MainThread):  Cleaned dbt_modules/*
+2021-04-06 18:00:12.357752 (MainThread): Finished cleaning all paths.
+2021-04-06 18:00:12.372463 (MainThread): Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f92a0ee8220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f929d4b3b20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f929d497f10>]}
+2021-04-06 18:00:12.383263 (MainThread): Flushing usage events

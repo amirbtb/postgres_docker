@@ -4,8 +4,7 @@ Local setup of Postgres on Docker Compose
 ### Run Metabase Configurator
 1. Run `docker exec dbt python metabase_setup.py`
 
-### Run dbt
-1. Run `docker exec dbt bash run_dbt.sh`
+
 
 **DOCKER EXEC à EXECUTER SUR UN TERMINAL HORS ATTACH SHELL**
 
@@ -23,7 +22,8 @@ une fois dans le contenaire, `cd demo_project`
 ### generate script sql d'une table (script2) 
 `dbt run-operation generate_base_model --args '{"source_name": "stg", "table_name": "immats_02_21"}'`
 
-**script2 puis dbt run puis script3**
+### Run dbt hors attach shell
+1. Run `docker exec dbt bash run_dbt.sh`
 
 ### generate yml d'une table (script3)
 `dbt run-operation generate_model_yaml --args '{"model_name": "immats_02_21"}'`
@@ -36,3 +36,9 @@ une fois dans le contenaire, `cd demo_project`
 4. run (script 3) puis copier coller le contenu dans model/ods/nom_du_dossier/nom_du_dossier.yml
 5. pour créer la vue créer un fichier model/prs/nom_du_dossier/nom_table_prs.sql et mettre dedans ce code en changeant le nom de la table  `select * from {{ ref('immats_vrp_ods') }}`
 6. dbt run 
+
+## dbt deps sert à installer des dépendences 
+
+## dbt clean sert à les supprimer 
+
+## ./demo_project/dbt_modules si le dossier existe tout va bien sinon dbt deps dans cd demo_project 

@@ -11,7 +11,7 @@ from .configurator_settings import (
     MB_ADMIN_EMAIL, MB_ADMIN_PASSWORD, SETUP_TOKEN_URL, 
     SETUP_ADMIN_URL, SETUP_DATABASE_URL, NEW_USER_URL
 )
-
+WAITING_TIME = 30
 class MetabaseClient:
     """Metabase API client.
     """

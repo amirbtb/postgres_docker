@@ -1,7 +1,7 @@
 version: 2
 
 models:
-  - name: immats_2018_ods
+  - name: immats_03_ods
     description: ""
     columns:
       - name: index
@@ -29,6 +29,9 @@ models:
         description: ""
 
       - name: departement
+        description: ""
+
+      - name: date_arrete
         description: ""
 
       - name: volume

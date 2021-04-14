@@ -18,6 +18,48 @@ sources:
           - name: volume
           - name: jo
 
+      - name: immats_2018
+        columns:
+          - name: index
+          - name: date
+          - name: genre_moto
+          - name: marque
+          - name: modele
+          - name: carrosserie
+          - name: cylindree
+          - name: code_departement
+          - name: departement
+          - name: volume
+          - name: jo
+
+      - name: immats_2019
+        columns:
+          - name: index
+          - name: date
+          - name: genre_moto
+          - name: marque
+          - name: modele
+          - name: carrosserie
+          - name: cylindree
+          - name: code_departement
+          - name: departement
+          - name: volume
+          - name: jo
+
+      - name: immats_2020
+        columns:
+          - name: index
+          - name: date
+          - name: genre_moto
+          - name: marque
+          - name: modele
+          - name: carrosserie
+          - name: cylindree
+          - name: code_departement
+          - name: departement
+          - name: volume
+          - name: jo
+
       - name: vrp_03_21
         columns:
           - name: index

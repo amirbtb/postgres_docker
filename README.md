@@ -26,7 +26,7 @@ une fois dans le contenaire, `cd demo_project`
 1. Run `docker exec dbt bash run_dbt.sh`
 
 ### generate yml d'une table (script3)
-`dbt run-operation generate_model_yaml --args '{"model_name": "immats_02_21"}'`
+`dbt run-operation generate_model_yaml --args '{"model_name": "immats_02_21_ods"}'`
 
 ## Etapes quand on a une nouvelle soucre
 *prérequis : avoir développer et lancer un flux "EL"*

@@ -1,0 +1,1 @@
+select * from {{ ref('immats_2019_ods') }}

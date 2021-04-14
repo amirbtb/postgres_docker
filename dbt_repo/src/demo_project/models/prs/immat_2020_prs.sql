@@ -1,1 +1,1 @@
-select * from {{ ref('immats_2020_ods') }}
+select * from {{ ref('immats_2020_vrp_ods') }}

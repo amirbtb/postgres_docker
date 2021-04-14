@@ -14,7 +14,6 @@ sources:
           - name: cylindree
           - name: code_departement
           - name: departement
-          - name: date_arrete
           - name: volume
           - name: jo
 

@@ -1,6 +1,6 @@
 with source_immats as (
 
-    select * from {{ ref('immats_03_ods') }}
+    select * from {{ ref('immats_2019_ods') }}
 
 ),
 
@@ -23,7 +23,6 @@ table_union as (
         i.code_departement as code_departement,
         v.departements as departement,
         v.commerciaux as commerciaux,
-        i.date_arrete as date_arrete,
         i.volume as volume,
         i.jo as jo
 

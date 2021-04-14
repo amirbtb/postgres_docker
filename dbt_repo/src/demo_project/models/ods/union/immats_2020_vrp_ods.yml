@@ -1,7 +1,7 @@
 version: 2
 
 models:
-  - name: immats_vrp_ods
+  - name: immats_2020_vrp_ods
     description: ""
     columns:
       - name: index
@@ -32,9 +32,6 @@ models:
         description: ""
 
       - name: commerciaux
-        description: ""
-
-      - name: date_arrete
         description: ""
 
       - name: volume

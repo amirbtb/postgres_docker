@@ -1,7 +1,7 @@
 version: 2
 
 models:
-  - name: immats_03_ods
+  - name: immats_2019_vrp_ods
     description: ""
     columns:
       - name: index
@@ -31,7 +31,7 @@ models:
       - name: departement
         description: ""
 
-      - name: date_arrete
+      - name: commerciaux
         description: ""
 
       - name: volume

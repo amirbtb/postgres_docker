@@ -22,7 +22,7 @@ une fois dans le contenaire, `cd demo_project`
 ### generate script sql d'une table (script2) 
 `dbt run-operation generate_base_model --args '{"source_name": "stg", "table_name": "immats_02_21"}'`
 
-### Run dbt hors attach shell
+### Dbt run hors attach shell
 1. Run `docker exec dbt bash run_dbt.sh`
 
 ### generate yml d'une table (script3)

@@ -16,7 +16,6 @@ renamed as (
         cylindree,
         code_departement,
         departement,
-        date_arrete,
         volume,
         jo
 

@@ -65,3 +65,18 @@ sources:
           - name: code_departements
           - name: departements
           - name: commerciaux
+
+      - name: ventes_20_21_mars
+        columns:
+          - name: index
+          - name: annee
+          - name: mois
+          - name: famille_de_vente
+          - name: famille_article
+          - name: gamme
+          - name: cylindree
+          - name: modele
+          - name: couleur
+          - name: sum_qte_vhl_fact_
+          - name: millesime
+          - name: famille_client

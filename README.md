@@ -20,13 +20,13 @@ une fois dans le contenaire, `cd demo_project`
 `dbt run-operation generate_source --args '{"schema_name": "stg","generate_columns":True}'`
 
 ### generate script sql d'une table (script2) 
-`dbt run-operation generate_base_model --args '{"source_name": "stg", "table_name": "immats_02_21"}'`
+`dbt run-operation generate_base_model --args '{"source_name": "stg", "table_name": "immats"}'`
 
 ### Dbt run hors attach shell
 1. Run `docker exec dbt bash run_dbt.sh`
 
 ### generate yml d'une table (script3)
-`dbt run-operation generate_model_yaml --args '{"model_name": "immats_02_21_ods"}'`
+`dbt run-operation generate_model_yaml --args '{"model_name": "immats_ods"}'`
 
 ## Etapes quand on a une nouvelle soucre
 *prérequis : avoir développer et lancer un flux "EL"*

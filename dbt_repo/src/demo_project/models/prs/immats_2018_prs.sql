@@ -1,1 +1,0 @@
-select * from {{ ref('immats_2018_vrp_ods') }}

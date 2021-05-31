@@ -3,7 +3,7 @@ version: 2
 sources:
   - name: stg
     tables:
-      - name: immats_03_21
+      - name: immats
         columns:
           - name: index
           - name: date
@@ -14,48 +14,7 @@ sources:
           - name: cylindree
           - name: code_departement
           - name: departement
-          - name: volume
-          - name: jo
-
-      - name: immats_2018
-        columns:
-          - name: index
-          - name: date
-          - name: genre_moto
-          - name: marque
-          - name: modele
-          - name: carrosserie
-          - name: cylindree
-          - name: code_departement
-          - name: departement
-          - name: volume
-          - name: jo
-
-      - name: immats_2019
-        columns:
-          - name: index
-          - name: date
-          - name: genre_moto
-          - name: marque
-          - name: modele
-          - name: carrosserie
-          - name: cylindree
-          - name: code_departement
-          - name: departement
-          - name: volume
-          - name: jo
-
-      - name: immats_2020
-        columns:
-          - name: index
-          - name: date
-          - name: genre_moto
-          - name: marque
-          - name: modele
-          - name: carrosserie
-          - name: cylindree
-          - name: code_departement
-          - name: departement
+          - name: date_arrete
           - name: volume
           - name: jo
 
@@ -65,18 +24,3 @@ sources:
           - name: code_departements
           - name: departements
           - name: commerciaux
-
-      - name: ventes_20_21_mars
-        columns:
-          - name: index
-          - name: annee
-          - name: mois
-          - name: famille_de_vente
-          - name: famille_article
-          - name: gamme
-          - name: cylindree
-          - name: modele
-          - name: couleur
-          - name: sum_qte_vhl_fact_
-          - name: millesime
-          - name: famille_client

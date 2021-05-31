@@ -1,1 +1,0 @@
-select * from {{ ref('ventes_20_21_mars_ods') }}

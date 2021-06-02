@@ -7,16 +7,28 @@ services:
   postgres_dwh:
     image: postgres:10-alpine
     container_name: postgres_dwh
-    volumes:
+    # volumes:
       # - "./data_repo:/host"
-      - ./scripts:/docker-entrypoint-initdb.d
-      - ./backup:/backup
+      # - ./scripts:/docker-entrypoint-initdb.d
+      # - ./backup:/backup
     ports:
       - "5433:5432"
     environment:
       POSTGRES_USER: $DWH_POSTGRES_ADMIN
       POSTGRES_PASSWORD: $DWH_POSTGRES_PASSWORD
       # POSTGRES_DB: $DWH_POSTGRES_DATABASE
+  
+  pgadmin:
+    container_name: pgadmin
+    image: dpage/pgadmin4
+    environment:
+      PGADMIN_DEFAULT_EMAIL: ${PGADMIN_DEFAULT_EMAIL:-pgadmin4@pgadmin.org}
+      PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_DEFAULT_PASSWORD:-admin}
+      PGADMIN_CONFIG_SERVER_MODE: 'False'
+    volumes:
+        - pgadmin:/root/.pgadmin
+    ports:
+      - 5050:80
 
 networks: 
     default: 

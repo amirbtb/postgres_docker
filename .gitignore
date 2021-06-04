@@ -2,3 +2,4 @@
 /scripts
 /backup
 **/__pycache__/*
+**/data

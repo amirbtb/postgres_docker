@@ -5,7 +5,7 @@ services:
   # postgreSQL service (share data between services)
 
   postgres_dwh:
-    image: postgres:10-alpine
+    image: postgres:latest
     volumes:
       - ./data:/var/lib/postgresql/data
     container_name: postgres_dwh
@@ -15,11 +15,18 @@ services:
       POSTGRES_USER: $DWH_POSTGRES_ADMIN
       POSTGRES_PASSWORD: $DWH_POSTGRES_PASSWORD
       POSTGRES_DB: $DWH_POSTGRES_DATABASE
-  adminer:
-    image: adminer
-    restart: always
+   
+  pgadmin:
+    container_name: pgadmin
+    image: dpage/pgadmin4
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=test@jaimal.com
+      - PGADMIN_DEFAULT_PASSWORD=pass4pgadmin
+      - PGADMIN_CONFIG_SERVER_MODE=False
+    volumes:
+      - ./queries:/home/queries
     ports:
-      - 8088:8080
+      - 5050:80
   
   dbt:
     image: datafuel/dbt
